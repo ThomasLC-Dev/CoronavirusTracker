@@ -1,20 +1,11 @@
 package fr.thomas.coronavirustracker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
-import androidx.fragment.app.FragmentManager
+import androidx.appcompat.app.AppCompatActivity
 import fr.thomas.coronavirustracker.countrieslist.CountriesListFragment
 import fr.thomas.coronavirustracker.home.WorldFragment
-import fr.thomas.coronavirustracker.info.HttpInfoServicesJson
-import fr.thomas.coronavirustracker.models.Country
 import kotlinx.android.synthetic.main.activity_main.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
 
